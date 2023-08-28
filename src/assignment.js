@@ -16,11 +16,12 @@ const assignment = {};
  */
 function sumOfNumbersTo(destination) {
     let sum = 0;
+    for(let i = 1; i <= destination; i++) sum += i;
     return sum
 }
 
 
-// assignment.sumOfNumbersTo = sumOfNumbersTo;
+
 
 /**
  * Challenge - 2

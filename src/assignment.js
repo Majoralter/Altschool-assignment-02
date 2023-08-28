@@ -21,7 +21,7 @@ function sumOfNumbersTo(destination) {
 }
 
 
-
+assignment.sumOfNumbersTo = sumOfNumbersTo;
 
 /**
  * Challenge - 2
@@ -70,12 +70,12 @@ function countEvenNumbersWithin(destination) {
 function celsiusToFahrenheit(arrayOfNumbers) {
     let result = [];
 
-    for(let num of arrayOfNumbers) result.push(Math.trunc((num * 9/5) + 32));
+    for(let num of arrayOfNumbers) result.push(Math.trunc((num * 1.8) + 32));
 
     return result;
 }
 
-
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 // ========================
 // DO NOT EDIT THIS BLOCK
